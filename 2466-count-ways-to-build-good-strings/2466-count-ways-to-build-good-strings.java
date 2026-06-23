@@ -3,13 +3,13 @@ class Solution {
     public int countGoodStrings(int low, int high, int zero, int one) 
     {
         int maxLen=high+Math.max(zero, one);
-        int dp[]=new int[maxLen];
+        int dp[]=new int[maxLen+1];
         Arrays.fill(dp, -1);
         return backtrack(low, high, zero, one, 0, dp);
     }
     public int backtrack(int low, int high, int zero, int one, int len, int[] dp)
     {
-        if(len>high) return 0;
+        if(len>high) dp[len]=0;
         if(dp[len]!=-1) return dp[len];
         long count=0;
         if(len>=low) count++;
