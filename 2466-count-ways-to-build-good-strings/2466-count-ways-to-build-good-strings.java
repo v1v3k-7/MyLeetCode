@@ -2,7 +2,8 @@ class Solution {
     final int MOD=1_000_000_007;
     public int countGoodStrings(int low, int high, int zero, int one) 
     {
-        Integer dp[]=new Integer[high+1];
+        int maxLen=high+Math.max(zero, one);
+        Integer dp[]=new Integer[maxLen];
         return backtrack(low, high, zero, one, 0, dp);
     }
     public int backtrack(int low, int high, int zero, int one, int len, Integer[] dp)
