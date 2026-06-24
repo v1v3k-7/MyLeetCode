@@ -6,16 +6,16 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) |
-| [2466-count-ways-to-build-good-strings](https://github.com/v1v3k-7/MyLeetCode/tree/master/2466-count-ways-to-build-good-strings) |
+| [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
+| [2466-count-ways-to-build-good-strings](https://github.com/v1v3k-7/MyLeetCode/tree/master/2466-count-ways-to-build-good-strings) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
