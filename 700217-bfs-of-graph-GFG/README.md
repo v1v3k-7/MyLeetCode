@@ -1,0 +1,8 @@
+# [BFS of graph](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
+## Easy
+Given a&nbsp;connected undirected graph containing V vertices, represented by a 2-d&nbsp;adjacency list&nbsp;adj[][], where each&nbsp;adj[i]&nbsp;represents the list of vertices connected to vertex&nbsp;i. Perform a&nbsp;Breadth First Search (BFS)&nbsp;traversal&nbsp;starting from vertex&nbsp;0, visiting vertices from left to right according to the given adjacency list, and return a list containing the BFS traversal of the graph.
+Note:&nbsp;Do traverse in the&nbsp;same order&nbsp;as they are in the given&nbsp;adjacency list.
+Examples:
+Input: adj[][] = [[2, 3, 1], [0], [0, 4], [0], [2]]Output: [0, 2, 3, 1, 4]Explanation: Starting from 0, the BFS traversal will follow these steps: Visit 0 → Output: 0 Visit 2 (first neighbor of 0) → Output: 0, 2 Visit 3 (next neighbor of 0) → Output: 0, 2, 3 Visit 1 (next neighbor of 0) → Output: 0, 2, 3, 1Visit 4 (neighbor of 2) → Final Output: 0, 2, 3, 1, 4
+Input: adj[][] = [[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]]Output: [0, 1, 2, 3, 4]Explanation: Starting from 0, the BFS traversal proceeds as follows: Visit 0 → Output: 0 Visit 1 (the first neighbor of 0) → Output: 0, 1 Visit 2 (the next neighbor of 0) → Output: 0, 1, 2 Visit 3 (the first neighbor of 2 that hasn't been visited yet) → Output: 0, 1, 2, 3 Visit 4 (the next neighbor of 2) → Final Output: 0, 1, 2, 3, 4
+Constraints:1 ≤ V = adj.size() ≤ 1040 ≤ adj[i][j] ≤ 104
