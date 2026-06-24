@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## String
 | Problem Name | Difficulty |
@@ -36,4 +37,12 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/v1v3k-7/MyLeetCode/tree/main/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/v1v3k-7/MyLeetCode/tree/main/0460-lfu-cache/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 <!---LeetCode Topics End-->
