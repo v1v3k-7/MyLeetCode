@@ -45,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1791-find-center-of-star-graph](https://github.com/v1v3k-7/MyLeetCode/tree/main/1791-find-center-of-star-graph/) | Easy |
 <!---LeetCode Topics End-->
