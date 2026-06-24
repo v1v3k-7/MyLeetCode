@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## String
 | Problem Name | Difficulty |
@@ -64,4 +65,16 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
 <!---LeetCode Topics End-->
