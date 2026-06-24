@@ -68,10 +68,12 @@ A collection of LeetCode questions to ace the coding interview!
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [DFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700203-dfs-of-graph-GFG) | Easy |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [BFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700217-bfs-of-graph-GFG) | Easy |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
