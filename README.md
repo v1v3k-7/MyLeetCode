@@ -49,4 +49,17 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1791-find-center-of-star-graph](https://github.com/v1v3k-7/MyLeetCode/tree/main/1791-find-center-of-star-graph/) | Easy |
+| [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 <!---LeetCode Topics End-->
