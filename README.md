@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- | ------- |
 | [1791-find-center-of-star-graph](https://github.com/v1v3k-7/MyLeetCode/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
+| [DFS of Graph](https://github.com/v1v3k-7/MyLeetCode/tree/main/700203-dfs-of-graph-GFG) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
