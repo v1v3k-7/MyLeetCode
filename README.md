@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## String
@@ -64,19 +65,32 @@ A collection of LeetCode questions to ace the coding interview!
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [2285-maximum-total-importance-of-roads](https://github.com/v1v3k-7/MyLeetCode/tree/main/2285-maximum-total-importance-of-roads/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [DFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700203-dfs-of-graph-GFG) | Easy |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+| [DFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700203-dfs-of-graph-GFG) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
-| [BFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700217-bfs-of-graph-GFG) | Easy |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+| [BFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700217-bfs-of-graph-GFG) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
