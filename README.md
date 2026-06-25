@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0084-largest-rectangle-in-histogram](https://github.com/v1v3k-7/MyLeetCode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/v1v3k-7/MyLeetCode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/v1v3k-7/MyLeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [1639-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/v1v3k-7/MyLeetCode/tree/master/1639-number-of-ways-to-form-a-target-string-given-a-dictionary) | Hard |
 ## String
 | Problem Name | Difficulty |
@@ -78,11 +79,13 @@ A collection of LeetCode questions to ace the coding interview!
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/v1v3k-7/MyLeetCode/tree/main/0994-rotting-oranges/) | Medium |
 | [BFS of Graph (GFG)](https://github.com/v1v3k-7/MyLeetCode/tree/main/700217-bfs-of-graph-GFG) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0733-flood-fill](https://github.com/v1v3k-7/MyLeetCode/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/v1v3k-7/MyLeetCode/tree/main/0994-rotting-oranges/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
