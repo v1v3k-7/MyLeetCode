@@ -14,7 +14,7 @@ class Solution {
         {
             if(!visited[i])
             {
-                if(bfsCycle(i, adjList, visited))
+                if(dfsCycle(i, -1, adjList, visited))
                 {
                     return true;
                 }
@@ -23,25 +23,16 @@ class Solution {
         return false;
     }
     
-    public boolean bfsCycle(int src, List<List<Integer>> adjList, boolean[] visited)
+    public boolean dfsCycle(int src, int parent, List<List<Integer>> adjList, boolean[] visited)
     {
         visited[src]=true;
-        Queue<int[]> queue=new LinkedList<>();
-        queue.offer(new int[]{src, -1});
-        while(!queue.isEmpty())
+        for(int neighbour: adjList.get(src))
         {
-            int size=queue.size();
-            for(int i=0; i<size; i++)
-            {
-                int[] node=queue.poll(); 
-                for(int neighbour: adjList.get(node[0]))
-                {
-                    if(neighbour==node[1]) continue; //parent ignore
-                    if(visited[neighbour]) return true; //pehle hi aa chuka hai mtlb kisi k pass
-                    visited[neighbour]=true;
-                    queue.offer(new int[]{neighbour, node[0]});
-                }
-            }
+            if(neighbour==parent) continue; //skip parent
+            if(visited[neighbour]) return true; //cycle exist
+            
+            boolean x=dfsCycle(neighbour, src, adjList, visited);
+            if(x) return true;
         }
         return false;
     }
