@@ -12,24 +12,18 @@ class Solution {
         Arrays.fill(res, -1);
         Queue<Integer> queue=new LinkedList<>();
         queue.offer(src);
-        boolean[] visited=new boolean[V];
-        visited[src]=true;
-        int level=0;
+        res[src]=0;
         while(!queue.isEmpty())
         {
-            int size=queue.size();
-            for(int i=0; i<size; i++)
+            int node=queue.poll();
+            for(int neighbour: adj.get(node))
             {
-                int node=queue.poll();
-                res[node]=level;
-                for(int neighbour: adj.get(node))
+                if(res[neighbour]==-1)
                 {
-                    if(!visited[neighbour])
-                        queue.offer(neighbour);
-                        visited[neighbour]=true;
+                    res[neighbour]=res[node]+1;
+                    queue.offer(neighbour);
                 }
             }
-            level++;
         }
         return res;
     }
