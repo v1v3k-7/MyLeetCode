@@ -1,42 +1,30 @@
 class Solution {
-    public boolean isCyclic(int V, int[][] edges) {
+    public boolean isCyclic(int V, int[][] edges) 
+    {
         List<List<Integer>> adj=new ArrayList<>();
-        for(int i=0;i<V;i++) adj.add(new ArrayList<>());
+        for(int i=0; i<V; i++) adj.add(new ArrayList<>());
+        int[] indegree=new int[V];
         for(int[] edge: edges)
         {
             adj.get(edge[0]).add(edge[1]);
+            indegree[edge[1]]++;
         }
+        Queue<Integer> queue=new LinkedList<>();
+        for(int i=0; i<V; i++) if(indegree[i]==0) queue.offer(i);
         
-        boolean visited[]=new boolean[V];
-        boolean pathVisited[]=new boolean[V];
-        for(int i=0; i<V; i++)
+        ArrayList<Integer> res=new ArrayList<>();
+        while(!queue.isEmpty())
         {
-            if(!visited[i])
+            int node=queue.poll();
+            res.add(node);
+            for(int neighbour: adj.get(node))
             {
-                if(dfsCycle(i, adj, visited, pathVisited))
-                    return true;
-            }
-            
-            
-        }
-        return false;
-    }
-    
-    public boolean dfsCycle(int src, List<List<Integer>> adj, boolean[] visited, boolean[] pathVisited)
-    {
-        visited[src]=true;
-        pathVisited[src]=true;
-        for(int neighbour: adj.get(src))
-        {
-            if(pathVisited[neighbour]) return true;
-            else if(visited[neighbour]) continue;
-            else
-            {
-                if(dfsCycle(neighbour, adj, visited, pathVisited)) return true;
+                indegree[neighbour]--;
+                if(indegree[neighbour]==0) queue.offer(neighbour);
             }
         }
-        pathVisited[src]=false;
-        return false;
+        // System.out.println(res);
+        return res.size()!=V;
     }
 }
 
