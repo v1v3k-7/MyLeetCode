@@ -1,41 +1,68 @@
-class Solution {
+class Solution 
+{
     public int spanningTree(int V, int[][] edges) 
     {
-        List<List<int[]>> adj=new ArrayList<>();
-        for(int i=0; i<V; i++) adj.add(new ArrayList<>());
+        PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->Integer.compare(a[2], b[2]));
         for(int[] edge: edges)
         {
-            adj.get(edge[0]).add(new int[]{edge[1], edge[2]});
-            adj.get(edge[1]).add(new int[]{edge[0], edge[2]});
+            pq.offer(new int[]{edge[0], edge[1], edge[2]});
         }
-        boolean[] vis=new boolean[V];
-        
+        DisjointSet dsu=new DisjointSet(V);
         int sum=0;
-        PriorityQueue<int[]> pq=new PriorityQueue<>((a, b)->Integer.compare(a[2], b[2]));
-        pq.offer(new int[]{-1, 0, 0}); //[parent, node, weight]
-        ArrayList<int[]> res=new ArrayList<>(); //store the edges of MST;
+        ArrayList<int[]> res=new ArrayList<>();
         while(!pq.isEmpty())
         {
             int[] pair=pq.poll();
-            int node=pair[1];
             int parent=pair[0];
+            int node=pair[1];
             int wt=pair[2];
-            if(vis[node]) continue;
-            vis[node]=true;
-            if(parent!=-1)
+            if(dsu.unionBySize(parent, node))
             {
-                res.add(new int[]{parent, node});
                 sum+=wt;
-            }
-            for(int[] neighbour: adj.get(node))
-            {
-                if(!vis[neighbour[0]])
-                {
-                    pq.offer(new int[]{node, neighbour[0], neighbour[1]});
-                }
+                res.add(new int[]{parent, node});
             }
         }
         return sum;
+    }
+}
+
+class DisjointSet
+{
+    int[] parent, size;
+    int components;
+    public DisjointSet(int nodes)
+    {
+        this.parent=new int[nodes];
+        this.size=new int[nodes];
+        this.components=nodes;
+        for(int i=0; i<nodes; i++)
+        {
+            this.parent[i]=i;
+            this.size[i]=1;
+        }
+    }
+    public int findRootParent(int node)
+    {
+        if(node==parent[node]) return node;
+        return parent[node]=findRootParent(parent[node]);
+    }
+    public boolean unionBySize(int node1, int node2)
+    {
+        int rootParent1=findRootParent(node1);
+        int rootParent2=findRootParent(node2);
+        if(rootParent1==rootParent2) return false;
+        components--;
+        if(size[rootParent1]<size[rootParent2])
+        {
+            parent[rootParent1]=rootParent2;
+            size[rootParent2]+=size[rootParent1];
+        }
+        else
+        {
+            parent[rootParent2]=rootParent1;
+            size[rootParent1]+=size[rootParent2];
+        }
+        return true;
     }
 }
 
