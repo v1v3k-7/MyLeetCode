@@ -1,6 +1,6 @@
 # [Shortest Common Supersequence](https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1)
 ## Medium
-Given two strings s1 and s2, find the length of the smallest string which has both s1 and s2 as its sub-sequences.Note: s1 and s2&nbsp;can have both uppercase and lowercase English letters.
+<h2><a href="https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1">Shortest Common Supersequence</a></h2><h3>Medium</h3><hr>Given two strings s1 and s2, find the length of the smallest string which has both s1 and s2 as its sub-sequences.Note: s1 and s2&nbsp;can have both uppercase and lowercase English letters.
 Examples:
 Input: s1 = "geek", s2 = "eke"
 Output: 5
