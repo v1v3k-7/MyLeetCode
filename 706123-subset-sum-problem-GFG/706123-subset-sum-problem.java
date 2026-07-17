@@ -2,9 +2,11 @@ class Solution {
     static boolean isSubsetSum(int arr[], int sum) 
     {
         int n=arr.length;
-        return solve(n-1, arr, sum);
+        Boolean[][] dp=new Boolean[n][sum+1];
+        
+        return solve(n-1, arr, sum, dp);
     }
-    private static boolean solve(int idx, int[] arr, int target)
+    private static boolean solve(int idx, int[] arr, int target, Boolean[][] dp)
     {
         if(target==0) return true;
         if(idx==0)
@@ -13,14 +15,16 @@ class Solution {
             else return false;
         }
         
+        if(dp[idx][target]!=null) return dp[idx][target];
+        
         if(target>=arr[idx])
         {
-            boolean pick=solve(idx-1, arr, target-arr[idx]);
+            boolean pick=solve(idx-1, arr, target-arr[idx], dp);
             if(pick) return true;
         }
         
-        boolean noPick=solve(idx-1, arr, target);
-        return noPick;
+        boolean noPick=solve(idx-1, arr, target, dp);
+        return dp[idx][target]=noPick;
     }
 }
 
